@@ -59,6 +59,7 @@ body::after {
 .item {
   background-color: var(--gruvbox-primary-dark);
   cursor: pointer;
+  box-sizing: content-box;
 }
 
 .item .bottom {
@@ -78,7 +79,7 @@ body::after {
 }
 
 .item.s {
-  border: 1em solid var(--gruvbox-orange);
+  border: 1px solid var(--gruvbox-orange);
 }
 
 .title match {
